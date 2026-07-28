@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
