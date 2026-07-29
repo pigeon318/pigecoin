@@ -11,5 +11,17 @@ int main()
 
     pigecoin.printChain();
 
+    bool isValid = pigecoin.isChainValid();
+    
+    if (isValid == true){
+        std::cout << "\n the blockchain is valid\n";
+    }
+
+    else{
+        std::cout << "\n the blockchain isnt valid\n";
+    }
+
+
+
     return 0;
 }

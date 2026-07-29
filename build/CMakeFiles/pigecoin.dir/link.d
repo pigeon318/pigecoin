@@ -37,11 +37,16 @@ pigecoin: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o \
+  /usr/lib32/libz.so.1 \
   /usr/lib/libz.so.1 \
+  /usr/lib32/libbrotlienc.so.1 \
   /usr/lib/libbrotlienc.so.1 \
+  /usr/lib32/libbrotlidec.so.1 \
   /usr/lib/libbrotlidec.so.1 \
+  /usr/lib32/libzstd.so.1 \
   /usr/lib/libzstd.so.1 \
   /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib32/libbrotlicommon.so.1 \
   /usr/lib/libbrotlicommon.so.1
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o:
@@ -120,14 +125,24 @@ CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o:
 
+/usr/lib32/libz.so.1:
+
 /usr/lib/libz.so.1:
+
+/usr/lib32/libbrotlienc.so.1:
 
 /usr/lib/libbrotlienc.so.1:
 
+/usr/lib32/libbrotlidec.so.1:
+
 /usr/lib/libbrotlidec.so.1:
+
+/usr/lib32/libzstd.so.1:
 
 /usr/lib/libzstd.so.1:
 
 /usr/lib/ld-linux-x86-64.so.2:
+
+/usr/lib32/libbrotlicommon.so.1:
 
 /usr/lib/libbrotlicommon.so.1:

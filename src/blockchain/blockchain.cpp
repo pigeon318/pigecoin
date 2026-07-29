@@ -42,9 +42,28 @@ void Blockchain::printChain()
 bool Blockchain::isChainValid()
 {
 
-    for (int i = 0; i < chain.size(); i++){
+    for (int i = 1; i < chain.size(); i++){
+
+        std::string current_hash = chain[i].calculateHash();
+        std::string hash_stored = chain[i].getHash();
+        std::string currentPrevHash = chain[i].getPreviousHash();
+        std::string storedPrevHash = chain[i - 1].getHash();
+
+        if (current_hash != hash_stored || currentPrevHash != storedPrevHash){
+
+            return false;
+            
+        }
+
+        
+
+
+
+
 
         
     }
+
+    return true;
     
 }

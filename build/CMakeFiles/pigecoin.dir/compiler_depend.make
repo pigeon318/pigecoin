@@ -877,6 +877,11 @@ pigecoin: /usr/lib/Scrt1.o \
   /usr/lib/libmvec.so.1 \
   /usr/lib/libz.so.1 \
   /usr/lib/libzstd.so.1 \
+  /usr/lib32/libbrotlicommon.so.1 \
+  /usr/lib32/libbrotlidec.so.1 \
+  /usr/lib32/libbrotlienc.so.1 \
+  /usr/lib32/libz.so.1 \
+  /usr/lib32/libzstd.so.1 \
   CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o \
   CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o \
   CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o \
@@ -888,6 +893,12 @@ CMakeFiles/pigecoin.dir/src/main.cpp.o:
 CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o:
 
 CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o:
+
+/usr/lib32/libzstd.so.1:
+
+/usr/lib32/libz.so.1:
+
+/usr/lib32/libbrotlienc.so.1:
 
 /usr/lib/libzstd.so.1:
 
@@ -962,6 +973,8 @@ CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o:
 /usr/include/c++/16/bits/stdexcept_throw.h:
 
 /usr/include/c++/16/bits/requires_hosted.h:
+
+/usr/lib32/libbrotlidec.so.1:
 
 /usr/include/bits/byteswap.h:
 
@@ -1294,6 +1307,8 @@ CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o:
 /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/blockchain.cpp:
 
 /usr/include/c++/16/bits/ios_base.h:
+
+/usr/lib32/libbrotlicommon.so.1:
 
 /usr/include/asm-generic/int-ll64.h:
 
