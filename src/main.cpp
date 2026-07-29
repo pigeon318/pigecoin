@@ -1,9 +1,15 @@
-#include <iostream>
-#include <string>
-#include "crypto/hash.h"
-#include "blockchain/block.h"
 
-int main() {
-    
-    Block genesis("first pigecoin block", "000000");
+#include <iostream>
+#include "blockchain/blockchain.h"
+
+int main()
+{
+    Blockchain pigecoin;
+
+    pigecoin.addBlock("Daniel sends 5 PIGE");
+    pigecoin.addBlock("Alice sends 2 PIGE");
+
+    pigecoin.printChain();
+
+    return 0;
 }

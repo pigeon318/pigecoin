@@ -16,4 +16,6 @@ public:
     std::string calculateHash();
 
     std::string getHash();
+    std::string getPreviousHash();
+    std::string getData();
 };

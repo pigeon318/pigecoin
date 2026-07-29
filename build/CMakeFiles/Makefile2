@@ -85,12 +85,12 @@ clean: CMakeFiles/pigecoin.dir/clean
 CMakeFiles/pigecoin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=1,2,3 "Built target pigecoin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target pigecoin"
 .PHONY : CMakeFiles/pigecoin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pigecoin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pigecoin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles 0
 .PHONY : CMakeFiles/pigecoin.dir/rule
@@ -102,7 +102,7 @@ pigecoin: CMakeFiles/pigecoin.dir/rule
 # codegen rule for target.
 CMakeFiles/pigecoin.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target pigecoin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target pigecoin"
 .PHONY : CMakeFiles/pigecoin.dir/codegen
 
 # clean rule for target.

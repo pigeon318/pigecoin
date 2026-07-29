@@ -129,6 +129,54 @@ pigecoin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/build
 .PHONY : pigecoin/fast
 
+src/blockchain/block.o: src/blockchain/block.cpp.o
+.PHONY : src/blockchain/block.o
+
+# target to build an object file
+src/blockchain/block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o
+.PHONY : src/blockchain/block.cpp.o
+
+src/blockchain/block.i: src/blockchain/block.cpp.i
+.PHONY : src/blockchain/block.i
+
+# target to preprocess a source file
+src/blockchain/block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.i
+.PHONY : src/blockchain/block.cpp.i
+
+src/blockchain/block.s: src/blockchain/block.cpp.s
+.PHONY : src/blockchain/block.s
+
+# target to generate assembly for a file
+src/blockchain/block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.s
+.PHONY : src/blockchain/block.cpp.s
+
+src/blockchain/blockchain.o: src/blockchain/blockchain.cpp.o
+.PHONY : src/blockchain/blockchain.o
+
+# target to build an object file
+src/blockchain/blockchain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o
+.PHONY : src/blockchain/blockchain.cpp.o
+
+src/blockchain/blockchain.i: src/blockchain/blockchain.cpp.i
+.PHONY : src/blockchain/blockchain.i
+
+# target to preprocess a source file
+src/blockchain/blockchain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.i
+.PHONY : src/blockchain/blockchain.cpp.i
+
+src/blockchain/blockchain.s: src/blockchain/blockchain.cpp.s
+.PHONY : src/blockchain/blockchain.s
+
+# target to generate assembly for a file
+src/blockchain/blockchain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigecoin.dir/build.make CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.s
+.PHONY : src/blockchain/blockchain.cpp.s
+
 src/crypto/hash.o: src/crypto/hash.cpp.o
 .PHONY : src/crypto/hash.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pigecoin"
+	@echo "... src/blockchain/block.o"
+	@echo "... src/blockchain/block.i"
+	@echo "... src/blockchain/block.s"
+	@echo "... src/blockchain/blockchain.o"
+	@echo "... src/blockchain/blockchain.i"
+	@echo "... src/blockchain/blockchain.s"
 	@echo "... src/crypto/hash.o"
 	@echo "... src/crypto/hash.i"
 	@echo "... src/crypto/hash.s"

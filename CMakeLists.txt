@@ -10,6 +10,8 @@ find_package(OpenSSL REQUIRED)
 add_executable(pigecoin
     src/main.cpp
     src/crypto/hash.cpp
+    src/blockchain/block.cpp
+    src/blockchain/blockchain.cpp
 )
 
 target_link_libraries(pigecoin OpenSSL::Crypto)

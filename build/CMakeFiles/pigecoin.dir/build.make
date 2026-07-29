@@ -100,21 +100,53 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/crypto/hash.cpp -o CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.s
 
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o: CMakeFiles/pigecoin.dir/flags.make
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o: /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.cpp
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o: CMakeFiles/pigecoin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o -MF CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o.d -o CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o -c /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.cpp
+
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.cpp > CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.i
+
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.cpp -o CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.s
+
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o: CMakeFiles/pigecoin.dir/flags.make
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o: /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/blockchain.cpp
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o: CMakeFiles/pigecoin.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o -MF CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o.d -o CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o -c /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/blockchain.cpp
+
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/blockchain.cpp > CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.i
+
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/blockchain.cpp -o CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.s
+
 # Object files for target pigecoin
 pigecoin_OBJECTS = \
 "CMakeFiles/pigecoin.dir/src/main.cpp.o" \
-"CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o"
+"CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o" \
+"CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o" \
+"CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o"
 
 # External object files for target pigecoin
 pigecoin_EXTERNAL_OBJECTS =
 
 pigecoin: CMakeFiles/pigecoin.dir/src/main.cpp.o
 pigecoin: CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o
+pigecoin: CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o
+pigecoin: CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o
 pigecoin: CMakeFiles/pigecoin.dir/build.make
 pigecoin: CMakeFiles/pigecoin.dir/compiler_depend.ts
 pigecoin: /usr/lib/libcrypto.so
 pigecoin: CMakeFiles/pigecoin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable pigecoin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pigecoin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pigecoin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

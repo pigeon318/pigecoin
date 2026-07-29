@@ -1,17 +1,19 @@
-#include <string>
-#include <vector>
-#include "block.h"
 #pragma once
 
-class Blockchain{
+#include <string>
+#include <vector>
 
-    public:
-        Blockchain();
-        void addBlock();
-        Block getLatestBlock();
-        bool isChainValid();
+#include "block.h"
 
-    private:
-        std::vector<Block> chain;
+class Blockchain
+{
+private:
+    std::vector<Block> chain;
 
+public:
+    Blockchain();
+    void addBlock(const std::string& data);
+    Block getLatestBlock();
+    bool isChainValid();
+    void printChain();
 };

@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pigecoin.dir/link.d"
+  "CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o"
+  "CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o.d"
+  "CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o"
+  "CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o.d"
   "CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o"
   "CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o.d"
   "CMakeFiles/pigecoin.dir/src/main.cpp.o"

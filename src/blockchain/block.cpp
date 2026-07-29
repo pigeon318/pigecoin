@@ -29,3 +29,13 @@ std::string Block::getHash()
 {
     return hash;
 }
+
+std::string Block::getPreviousHash()
+{
+    return prev_hash;
+}
+
+std::string Block::getData()
+{
+    return data;
+}

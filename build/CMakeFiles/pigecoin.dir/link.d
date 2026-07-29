@@ -4,6 +4,8 @@ pigecoin: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/pigecoin.dir/src/main.cpp.o \
   CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o \
+  CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o \
+  CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o \
   /usr/lib/libcrypto.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -51,6 +53,10 @@ pigecoin: \
 CMakeFiles/pigecoin.dir/src/main.cpp.o:
 
 CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o:
+
+CMakeFiles/pigecoin.dir/src/blockchain/block.cpp.o:
+
+CMakeFiles/pigecoin.dir/src/blockchain/blockchain.cpp.o:
 
 /usr/lib/libcrypto.so:
 
