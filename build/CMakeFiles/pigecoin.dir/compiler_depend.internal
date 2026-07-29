@@ -249,6 +249,7 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o
 
 CMakeFiles/pigecoin.dir/src/main.cpp.o
  /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/main.cpp
+ /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.h
  /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/crypto/hash.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

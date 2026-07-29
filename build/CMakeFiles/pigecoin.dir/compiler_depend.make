@@ -247,6 +247,7 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o: /home/pigeon/Documents/pigecoin-c
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
 CMakeFiles/pigecoin.dir/src/main.cpp.o: /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/main.cpp \
+  /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.h \
   /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/crypto/hash.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -513,6 +514,8 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
+
 /usr/include/c++/16/bits/ranges_base.h:
 
 /usr/include/c++/16/bits/uses_allocator_args.h:
@@ -759,8 +762,6 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o:
 
 /usr/include/c++/16/bits/new_except.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
-
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/wchar.h:
@@ -870,6 +871,8 @@ CMakeFiles/pigecoin.dir/src/crypto/hash.cpp.o:
 /usr/include/linux/stddef.h:
 
 /usr/include/c++/16/bits/version.h:
+
+/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.h:
 
 /usr/lib/libc.so.6:
 

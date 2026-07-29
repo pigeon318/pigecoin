@@ -142,4 +142,5 @@ CMakeFiles/pigecoin.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc \
- /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/crypto/hash.h
+ /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/crypto/hash.h \
+ /home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/src/blockchain/block.h
