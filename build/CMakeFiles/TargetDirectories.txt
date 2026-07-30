@@ -1,3 +1,0 @@
-/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles/pigecoin.dir
-/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles/edit_cache.dir
-/home/pigeon/Documents/pigecoin-cpp-curriculum/pigecoin/build/CMakeFiles/rebuild_cache.dir
